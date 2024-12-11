@@ -1,0 +1,33 @@
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "80:80"
+        volumes:
+            - .:/var/www/html
+        depends_on:
+            - db
+        networks:
+            - app-network
+        entrypoint: |
+            /bin/bash -c "
+              php artisan migrate --force;
+              apache2-foreground"
+
+    db:
+        image: mysql:8.2
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: crmoz
+            MYSQL_USER: crmoz_root
+            MYSQL_PASSWORD: root
+        ports:
+            - "3306:3306"
+        networks:
+            - app-network
+
+networks:
+    app-network:
+        driver: bridge
