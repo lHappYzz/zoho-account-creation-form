@@ -1,6 +1,5 @@
 <template>
     <div class="form-container">
-        <h2>CRMOZ</h2>
         <form @submit.prevent="handleSubmit">
             <div>
                 <label for="accountName">Account name:</label>

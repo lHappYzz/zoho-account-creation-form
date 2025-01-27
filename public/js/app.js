@@ -20062,7 +20062,7 @@ var _hoisted_7 = {
   key: 0
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_cache[12] || (_cache[12] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "CRMOZ", -1 /* HOISTED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     onSubmit: _cache[6] || (_cache[6] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.handleSubmit && $options.handleSubmit.apply($options, arguments);
     }, ["prevent"]))
@@ -22886,7 +22886,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AccountForm_vue_vue_type_template_id_356276f6_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AccountForm.vue?vue&type=template&id=356276f6&scoped=true */ "./resources/js/components/AccountForm.vue?vue&type=template&id=356276f6&scoped=true");
 /* harmony import */ var _AccountForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AccountForm.vue?vue&type=script&lang=js */ "./resources/js/components/AccountForm.vue?vue&type=script&lang=js");
 /* harmony import */ var _AccountForm_vue_vue_type_style_index_0_id_356276f6_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AccountForm.vue?vue&type=style&index=0&id=356276f6&scoped=true&lang=css */ "./resources/js/components/AccountForm.vue?vue&type=style&index=0&id=356276f6&scoped=true&lang=css");
-/* harmony import */ var C_OSPanel_home_crmoz_loc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var C_OSPanel_home_zohoAccountCreationForm_loc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -22894,7 +22894,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,C_OSPanel_home_crmoz_loc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_AccountForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_AccountForm_vue_vue_type_template_id_356276f6_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-356276f6"],['__file',"resources/js/components/AccountForm.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_OSPanel_home_zohoAccountCreationForm_loc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_AccountForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_AccountForm_vue_vue_type_template_id_356276f6_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-356276f6"],['__file',"resources/js/components/AccountForm.vue"]])
 /* hot reload */
 if (false) {}
 
